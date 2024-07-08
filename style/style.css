@@ -1,10 +1,77 @@
 *
 {
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-
+/***** happy new year header css start here *****/ 
 .happy-new-img-bg
 {
-    background: linear-gradient(rgba(7, 2, 17 , 100%), rgba(7, 2, 17 , 100%)), url();
+    width: 1000px;
+    height: 600px;
+    background: linear-gradient( 30deg, rgba(0, 0, 0, 0), rgba(7, 2, 17, 0.918)), url(../images/Banner\ Image.png);
+    background-position: center;
+    /* background-size:400px 400px; */
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.happy-tittle
+{
+    color: #FFFF;
+    font-size: 26px;
+    font-weight: 600;
+}
+.happy-2nd-tittle
+{
+    width: 600px;
+    text-align: center;
+    color: #FFFF;
+    font-size: 72px;
+
+}
+/***** End happy new year header css end here *****/
+
+/* offer css code start here  */
+.offer-container
+{
+
+margin-top: 48px;    margin: 100px auto 0;
+
+}
+.offer-tittle
+{
+    text-align: center;
+    color: #FF0000;
+    font-size: 80px;
+    font-weight: bold;
+}
+.offer-sub-tittle
+{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 800;
+}
+.offer-more-sub-tittle
+{
+    text-align: center;
+    color: #070211;
+    font-si48pxze: 4 08px;
+    font-weight: bold;
+    margin-top: 16px
+    ;
+}
+.offer-img
+{
+    display: block;
+    margin:48px auto 0;
+    width: 400px;
+    height: 300px;
 
 }
